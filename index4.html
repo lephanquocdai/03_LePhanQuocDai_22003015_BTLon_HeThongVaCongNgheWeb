@@ -1,137 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="image/logo1.png">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style3.css">
-    <script src="javascript/java.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <title>Exclusive &ndash; DemO</title>
-</head>
-
-<body>
-    <nav>
-        <div class="nav1">
-            <ul class="Chung">
-                <li>
-                    <div id="myTab" class="tab">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <a href="#select1">NEW ARRIVAL</a>
-                        <a href="#select2">QUICK SALE</a>
-                        <a href="#select3">SELLING PRODUCT</a>
-                        <div class="dropdown">
-                            <a href="#" class="dropbtn">Contact</a>
-                            <div class="dropdown-content">
-                                <a class="hotline" href="tel:19006089">ĐT: 19006089</a>
-                                <a class="hotline" href="mailto:Exclusive20@gmail.com">Email: Exclusive20@gmail.com</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ic"><span onclick="openNav()"><i class="fas fa-bars"></i></span></div>
-                </li>
-                <li class="phone">
-                    <span>Hotline:</span>
-                    <a href="tel:19006089">19006089</a>
-                </li>
-                <li class="phone">
-                    <span>Email:</span>
-                    <a href="mailto:Exclusive20@gmail.com">Exclusive20@gmail.com</a>
-                </li>
-            </ul>
-        </div>
-        <div class="nav2">
-            <ul class="Chung">
-                <li>
-                    <a id="myBtn"><i class="fas fa-user-alt"></i></a>
-                </li>
-                <li>
-                    <a><i class="fas fa-cart-arrow-down"></i></a>
-                </li>
-            </ul>
-            <div class="modal fade" id="myModal">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                  
-                    <!-- Modal Header -->
-                    <div class="modal-header" style="background-color: rgb(243, 188, 36);">
-                      <h4 class="modal-title" style="color:black;font-weight: 600;">LOGIN</h4>
-                      <button type="button" class="close" data-dismiss="modal">×</button>
-                    </div>
-                    
-                    <!-- Modal body -->
-                    <form action="/action_page.php">
-                        <div class="form-group">
-                          <label for="email">Email:</label>
-                          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-                        </div>
-                        <div class="form-group">
-                          <label for="pwd">Password:</label>
-                          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
-                        </div>
-                        <div class="form-group form-check">
-                          <label class="form-check-label">
-                            <input class="form-check-input" type="checkbox" name="remember"> Remember me
-                          </label>
-                        </div>
-                        
-                      </form>
-                    
-                    <!-- Modal footer -->
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Submit</button>
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                    </div>
-                    
-                  </div>
-                </div>
-              </div>
-        </div>
-    </nav>
-    <header>
-        <div class="menu" id="myMenu">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="image/logo5.png" alt="logo">
-                </a>
-            </div>
-            <div class="main">
-                <ul>
-                    <li class="link"><a href="index2.html">Vintage</a></li>
-                    <div class="h2">
-                        <li class="link">
-                            <a href="index3.html">Street &ndash; Style</a>
-                            <div class="level">
-                                <ul>
-                                    <li><a href="index3.html">Couple</a></li>
-                                    <li><a href="index3.html">Shirt</a></li>
-                                    <li><a href="index3.html">Pants</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                    </div>
-                    <li class="link"><a href="index4.html">Dress</a></li>
-                    <li class="link"><a href="index5.html">Hướng dẫn</a></li>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="image/logo1.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="javascript/java.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <title>Dress</title>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var menu = document.getElementById("myMenu");
+            var sticky = menu.offsetTop;
+        </script>
+    </head>
+    <body>
+        <nav>
+            <div class="nav1">
+                <ul class="Chung">
                     <li>
-                        <div class="search">
-                                <input type="text" placeholder="Search..." name="search"/>
-                                <button type="submit"><i class="fa fa-search"></i></button>
+                        <div id="myTab" class="tab">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="#select1">NEW ARRIVAL</a>
+                            <a href="#select2">QUICK SALE</a>
+                            <a href="#select3">SELLING PRODUCT</a>
+                            <div class="dropdown">
+                                <a href="#" class="dropbtn">Contact</a>
+                                <div class="dropdown-content">
+                                    <a class="hotline" href="tel:19006089">ĐT: 19006089</a>
+                                    <a class="hotline" href="mailto:Exclusive20@gmail.com">Email: Exclusive20@gmail.com</a>
+                                </div>
+                            </div>
                         </div>
+                        <div class="ic"><span onclick="openNav()"><i class="fas fa-bars"></i></span></div>
+                    </li>
+                    <li class="phone">
+                        <span>Hotline:</span>
+                        <a href="tel:19006089">19006089</a>
+                    </li>
+                    <li class="phone">
+                        <span>Email:</span>
+                        <a href="mailto:Exclusive20@gmail.com">Exclusive20@gmail.com</a>
                     </li>
                 </ul>
             </div>
-        </div>
-    </header>
+            <div class="nav2">
+                <ul class="Chung">
+                    <li>
+                        <a id="myBtn" href="login.html"><i class="fas fa-user-alt"></i></a>
+                    </li>
+                    <li>
+                        <a><i class="fas fa-cart-arrow-down"></i></a>
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>
+        <header>
+            <div class="menu" id="myMenu">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="image/logo5.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="main">
+                        <ul>
+                            <li class="link"><a href="index.html">Home</a></li>
+                            <li class="link"><a href="index6.html">Introduce</a></li>
+                            <li class="link"><a href="index2.html">Vintage</a></li>
+                            <div class="h2">
+                                <li class="link">
+                                    <a href="index3.html">Street &ndash; Style</a>
+                                    <div class="level">
+                                        <ul>
+                                            <li><a href="index3.html">Couple</a></li>
+                                            <li><a href="index3.html">Shirt</a></li>
+                                            <li><a href="index3.html">Pants</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </div>
+                            <li class="link"><a href="index4.html">Dress</a></li>
+                            <li class="link"><a href="index5.html">Instruct</a></li>
+                            <li>
+                                <div class="search">
+                                        <input type="text" placeholder="Search..." name="search"/>
+                                        <button type="submit" onclick="searchProducts()"><i class="fa fa-search"></i></button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </header>
         
     <section>
-        <div class="text">
-            <span>DRESS</span>
+        <div class="thanh">
+            <span id="select1">DRESS</span>
         </div>
         <div class="products">
             <div class="product">
@@ -157,7 +127,9 @@
             <div class="product">
                 <div class="bb">
                     <div class="imgs">
+                        <a href="chitiet8.html">
                         <div class="img"><img src="image/dr3.jpg" alt="dr3"></div>
+                    </a>
                     </div>
                 </div>
                 <p class="name">Đầm dự tiệc (đỏ nhung)</p>
@@ -264,8 +236,6 @@
             </div>
         </div>
     </section>
-        
-
     <footer>
         <footer class="last1">
             <div class="hr">
@@ -305,15 +275,8 @@
             <a href="#"><i class="fab fa-facebook-messenger"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fas fa-envelope"></i></a>
-            <p>Performed by</p>
+            <p>Performed by QuocDai</p>
         </footer>
     </footer>
-    
-    <script>
-        window.onscroll = function() {myFunction()};
-        
-        var menu = document.getElementById("myMenu");
-        var sticky = menu.offsetTop;
-    </script>
 </body>
 </html>
